@@ -1,15 +1,19 @@
 {
-  "name": "projectmanagement",
+  "name": "project_management",
   "version": "1.0.0",
-  "description": "Project MANAGEMENT APIs",
+  "description": "",
   "main": "index.js",
-  "type": "module",
   "scripts": {
-    "dev": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Varshil Shah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VShah1707/ProjectManagement.git"
+  },
+  "author": "VS",
   "license": "ISC",
-  "devDependencies": {
-    "prettier": "3.7.4"
-  }
+  "bugs": {
+    "url": "https://github.com/VShah1707/ProjectManagement/issues"
+  },
+  "homepage": "https://github.com/VShah1707/ProjectManagement#readme"
 }
