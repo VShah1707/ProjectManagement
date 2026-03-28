@@ -1,0 +1,38 @@
+{
+  "name": "project_management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VShah1707/ProjectManagement.git"
+  },
+  "author": "VS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VShah1707/ProjectManagement/issues"
+  },
+  "homepage": "https://github.com/VShah1707/ProjectManagement#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "prettier": "3.8.1"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.2.3",
+    "express": "^4.22.1",
+    "express-validator": "^7.3.1",
+    "jsonwebtoken": "^9.0.3",
+    "mailgen": "^2.0.32",
+    "mongoose": "^9.2.1",
+    "nodemailer": "^8.0.2",
+    "resend": "^6.9.4"
+  }
+}
