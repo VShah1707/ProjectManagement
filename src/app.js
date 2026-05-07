@@ -2,6 +2,7 @@ import express, { json } from "express";
 import cors from "cors";
 import healthCheckRouter from "./routes/health-check.routes.js"
 import authRouter from "./routes/auth.routes.js"
+import projectRouter from "./routes/project.routes.js"
 import cookieParser from "cookie-parser";
 
 const app = express();
@@ -25,8 +26,9 @@ app.use(
 // routes configurations
 app.use("/api/v1/healthcheck", healthCheckRouter)
 app.use("/api/v1/auth", authRouter)
+app.use("/api/v1/projects", projectRouter)
 app.get("/", (req, res) => {
-  res.send("Hello Wolrd");
+  res.send("Server Started");
 });
 
 export default app;

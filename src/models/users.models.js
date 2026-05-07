@@ -100,4 +100,4 @@ userSchema.methods.generateTemporaryToken = function () {
   const tokenExpiry = Date.now() + 20 * 60 * 100;
   return { unHashedToken, hashedToken, tokenExpiry };
 };
-export const User = await mongoose.model("User", userSchema);
+export const User = mongoose.model("User", userSchema);
